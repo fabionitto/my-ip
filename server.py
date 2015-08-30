@@ -11,5 +11,5 @@ def send_ip():
     return 'foo'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
     # app.run(threaded=True, host='0.0.0.0', port=80)
